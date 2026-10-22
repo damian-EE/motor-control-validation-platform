@@ -1,5 +1,7 @@
 #!/usr/bin/env python3
 """
+Written with Claude (Anthropic's AI assistant); run, tested and debugged on real hardware by Damian Delgado Ayon.
+
 plot_results.py - turn a motor_logger CSV into plots and a summary table.
 
 Usage:

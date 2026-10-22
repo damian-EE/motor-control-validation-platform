@@ -1,4 +1,6 @@
 /*
+  Written with Claude (Anthropic's AI assistant); run, tested and debugged on real hardware by Damian Delgado Ayon.
+
   Phase 3 v2 - Motor Control + Encoder RPM + INA219 (averaged current/voltage)
   Custom PCB Motor Control & Validation Platform
 

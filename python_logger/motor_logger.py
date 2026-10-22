@@ -1,5 +1,7 @@
 #!/usr/bin/env python3
 """
+Written with Claude (Anthropic's AI assistant); run, tested and debugged on real hardware by Damian Delgado Ayon.
+
 motor_logger.py - log data from the Arduino motor controller to a CSV file.
 
 The Phase 3 firmware prints one line every 500 ms:

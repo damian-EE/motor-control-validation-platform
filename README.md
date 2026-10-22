@@ -1,6 +1,6 @@
 # Custom PCB Motor Control & Validation Platform
 
-A small test platform for a 12 V DC gear motor with a Hall encoder. An Arduino drives the motor through an H-bridge, measures speed and supply current while it runs, and streams the data to a Python logger that saves CSV files and plots. A 2-layer KiCad carrier board was designed to replace the breadboard wiring.
+A 2-layer KiCad carrier PCB for a small motor test platform (a 12 V DC gear motor with a Hall encoder), plus the breadboard prototype used to validate the circuit. The prototype drives the motor from an Arduino through an H-bridge, measures speed and supply current while it runs, and logs the data to CSV with a Python script. The PCB replaces the breadboard wiring.
 
 ![PCB layout](media/pcb_layout.png)
 
@@ -150,6 +150,10 @@ Files: [`hardware/schematic.pdf`](hardware/schematic.pdf), [`hardware/bom.csv`](
 ### Status
 
 The board is **designed and passes DRC, but it has not been fabricated or tested**. All measurements above were taken on a breadboard prototype with the same circuit. Before ordering the board, check that the socket pin order on J4 (INA219) and J5 (DRV8871) matches the actual breakout modules in use, since module pin orders vary between vendors.
+
+## How this was built
+
+I assembled and debugged the hardware, designed the schematic and PCB in KiCad, ran every test, and collected the data shown above. The Arduino firmware and the Python logging and plotting scripts were written with Claude (Anthropic's AI assistant). I ran them on the real hardware, tested them, and fixed the problems that came up (intermittent sensor connections, a loose supply connection, noisy current readings).
 
 ## License
 

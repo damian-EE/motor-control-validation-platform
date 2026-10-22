@@ -1,4 +1,6 @@
 /*
+  Written with Claude (Anthropic's AI assistant); run, tested and debugged on real hardware by Damian Delgado Ayon.
+
   I2C Scanner - finds every I2C device on the bus.
   Wiring: module SDA -> A4, SCL -> A5, VCC -> 5V, GND -> GND.
   Open the Serial Monitor at 9600 baud. It rescans every 3 seconds.
