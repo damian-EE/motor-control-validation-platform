@@ -1,0 +1,8 @@
+Reference,Qty,Value,Footprint,Description
+J1,1,ARDUINO_LINK,PinHeader_1x08_P2.54mm_Vertical,8-pin header to Arduino Uno (+5V GND D2 D3 D9 D10 A4 A5)
+J2,1,POWER_IN,TerminalBlock_Phoenix_MKDS-1.5-2-5.08,2-position screw terminal for 12 V supply (+12V / GND)
+J3,1,MOTOR_ENC,PinHeader_1x06_P2.54mm_Vertical,6-pin motor connector (M+ M- GND +5V ENC_A ENC_B)
+J4,1,INA219_MODULE,PinSocket_1x06_P2.54mm_Vertical,6-pin socket for INA219 current/voltage sensor breakout
+J5,1,DRV8871_MODULE,PinSocket_1x04_P2.54mm_Vertical,4-pin socket for DRV8871 motor driver breakout
+J6,1,DRV_OUT,PinHeader_1x02_P2.54mm_Vertical,2-pin header for DRV8871 motor outputs (OUT1 / OUT2)
+"TP1,TP2,TP3,TP4,TP5,TP6",6,TestPoint,TestPoint_THTPad_D2.0mm_Drill1.0mm,Through-hole test points: TP1 +5V, TP2 GND, TP3 +12V_MOTOR, TP4 ENC_A, TP5 ENC_B, TP6 PWM_IN1
