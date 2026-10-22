@@ -1,7 +1,5 @@
 #!/usr/bin/env python3
 """
-Written with Claude (Anthropic's AI assistant); run, tested and debugged on real hardware by Damian Delgado Ayon.
-
 compare_runs.py - repeatability across several sweep runs.
 
 Usage:

@@ -1,6 +1,4 @@
 /*
-  Written with Claude (Anthropic's AI assistant); run, tested and debugged on real hardware by Damian Delgado Ayon.
-
   Phase 1 - DC Motor Speed/Direction Control (DRV8871 driver)
   Custom PCB Motor Control & Validation Platform
 

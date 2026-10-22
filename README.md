@@ -151,9 +151,9 @@ Files: [`hardware/schematic.pdf`](hardware/schematic.pdf), [`hardware/bom.csv`](
 
 The board is **designed and passes DRC, but it has not been fabricated or tested**. All measurements above were taken on a breadboard prototype with the same circuit. Before ordering the board, check that the socket pin order on J4 (INA219) and J5 (DRV8871) matches the actual breakout modules in use, since module pin orders vary between vendors.
 
-## How this was built
+## Project scope
 
-I assembled and debugged the hardware, designed the schematic and PCB in KiCad, ran every test, and collected the data shown above. The Arduino firmware and the Python logging and plotting scripts were written with Claude (Anthropic's AI assistant). I ran them on the real hardware, tested them, and fixed the problems that came up (intermittent sensor connections, a loose supply connection, noisy current readings).
+The focus of this project is PCB design and hardware validation: the KiCad schematic and board, the breadboard prototype of the circuit, and the test runs and data shown above.
 
 ## License
 
